@@ -84,7 +84,7 @@ function App() {
       <div className='complete-task-display'>
             <h1>Completed Todo</h1>
             <ul>
-              {displayCompletedList.map(todo => (
+              {completedTaskList.map(todo => (
                 <li key={todo.id}>
                   <TodoItem todo={todo} deleteTask={deleteTask}  onCompleteTask={onCompleteTask} deleteCompletedTask={deleteCompletedTask}/>
                 </li>
