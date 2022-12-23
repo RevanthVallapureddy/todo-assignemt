@@ -1,0 +1,27 @@
+p{
+    display: inline;
+}
+
+button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.delete-icon{
+    height: 20px;
+    width: 20px;
+   
+}
+
+.tick-icon{
+    height: 20px;
+    width: 20px;
+    align-self: flex-end;
+}
+
+.completed-bg{
+    opacity: 0.2;
+}
